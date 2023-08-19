@@ -36,6 +36,7 @@ function App() {
         <button >search</button>
       </form>
       {news.map((n,i)=> (<p key={i}>{n.title}</p>))}
+      
     </div>
   );
 }
